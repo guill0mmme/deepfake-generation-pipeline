@@ -1,0 +1,9 @@
+.git/
+.ipynb_checkpoints/
+venv_py312/
+weights/
+output/
+__pycache__/
+*.pyc
+*.log
+.DS_Store

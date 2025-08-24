@@ -1,0 +1,36 @@
+# Python virtual environment
+fdenv/
+venv_py312
+
+# .ipynb checkpoints
+.ipynb_checkpoints/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# IDE-specific files (common ones, adjust if you use others)
+.vscode/
+.idea/
+.DS_Store # macOS specific
+
+# Output directories
+output_results/
+output/
+
+# Input data directory (often large or user-specific)
+input_images/
+
+
+# Weights folder
+
+weights/
+
+
+# Models directory (contains large binary files, better to download)
+models/
+
+# Logs and temporary files (if any are generated)
+*.log
+*.tmp
+*.temp
