@@ -12,7 +12,7 @@ pipeline:
   simswap_weights: "${hydra:runtime.cwd}/weights/simswap_224_latest_net_G"
   gfpgan_weights: "${hydra:runtime.cwd}/weights/GFPGANv1.4_ema.pth"
   blend_module_weights: "${hydra:runtime.cwd}/weights/blend_module.jit"
-  device: "cuda"
+  device: "cpu" # "cuda" or "cpu"
   crop_size: 224
   # it seems that the official 224 checkpoint works better with 'none' face alignment type
   checkpoint_type: "none" # use "official_224" for provided official checkpoint. now using custom trained
