@@ -1,0 +1,4 @@
+[core]
+    remote = hf_vggface2_remote
+['remote "hf_vggface2_remote"']
+    url = https://huggingface.co/datasets/tanvir09/VGGFace2-HQ

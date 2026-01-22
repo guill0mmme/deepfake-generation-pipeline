@@ -1,0 +1,15 @@
+{
+  "name": "Cuda Python Dev",
+  "dockerFile": "../Dockerfile",
+  "context": "..",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "postCreateCommand": "pip install --upgrade pip",
+  "remoteUser": "devuser",
+  "forwardPorts": [8888],
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/app,type=bind,consistency=cached"
+  ],
+  "features": {}
+}
