@@ -62,7 +62,7 @@ class Application:
             self.data_manager.save(output)
 
 
-@hydra.main(config_path="configs/", config_name="run_video.yaml")
+@hydra.main(config_path="configs/", config_name="run_video_specific.yaml")
 def main(config: DictConfig):
 
     app = Application(config)

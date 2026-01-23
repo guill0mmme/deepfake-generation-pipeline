@@ -1,5 +1,5 @@
 data:
-  id_image: "${hydra:runtime.cwd}/demo_file/Iron_man.jpg"
+  id_image: "${hydra:runtime.cwd}/demo_file/jeffBezos.jpg"
   att_image: "none"
   specific_id_image: "none"
   att_video: "${hydra:runtime.cwd}/demo_file/unknownPersonVideo.mp4"
